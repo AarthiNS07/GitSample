@@ -2,8 +2,9 @@ package org.gitdemo;
 
 public class GitPractise 
 {
-	public String myTestCase()
+	public void myTestCase()
 	{
-		return "This is my first test case";
+		System.out.println("This is my first test case");
+		System.out.println("I have modified");
 	}
 }
